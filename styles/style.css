@@ -121,7 +121,10 @@ h1, h2, h3 {
 }
 
 .quien-soy-title {
+    display: grid;
     grid-area: titulo;
+    align-items: center;
+    text-align: center;
     font-size: 3rem;
     line-height: 1.1;
 }
